@@ -6,6 +6,7 @@ import { CertUploadComponent } from './cert-upload/cert-upload.component';
 import { SubListViewComponent } from './sub-list-view/sub-list-view.component';
 import { SubSingleViewComponent } from './sub-single-view/sub-single-view.component';
 import { RolesGuard } from 'src/app/core/services/roles.guard';
+import { AddContactComponent } from './add-contact/add-contact.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'misp', pathMatch: 'full' },  
@@ -16,7 +17,8 @@ const routes: Routes = [
   { path: ':type/:childurl/view/:id/create', component: SubSingleViewComponent, canActivate: [RolesGuard] },
   { path: ':type/:childurl/view/:id/single-view/:childid', component: SubSingleViewComponent, canActivate: [RolesGuard] },
   { path: ':type/upload/:id', component: CertUploadComponent, canActivate: [RolesGuard] },
-  { path: ':type/upload', component: CertUploadComponent, canActivate: [RolesGuard] }
+  { path: ':type/upload', component: CertUploadComponent, canActivate: [RolesGuard] },
+  { path: 'addcontact', component: AddContactComponent, canActivate: [RolesGuard] }
 ];
 
 @NgModule({

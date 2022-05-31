@@ -1,0 +1,36 @@
+<div id="flex-single-view" style="padding-top: 12px;">
+  <div id="flex-container">   
+    <div id="myDiv" class="flex-body">
+      <mat-card>
+        <mat-card-content class="forms-container">
+          <div [formGroup]="createForm" class="primary-form" *ngIf="createForm"> 
+            <mat-form-field>              
+              <input #keyboardRef formControlName="firstName" matInput placeholder="{{'addcontact.firstName' | translate}}" required>              
+            </mat-form-field>
+            <mat-form-field>
+              <input #keyboardRef formControlName="lastName" matInput placeholder="{{'addcontact.lastName' | translate}}" required>
+            </mat-form-field>
+            <mat-form-field>
+              <input #keyboardRef formControlName="contactNo" matInput placeholder="{{'addcontact.contactNumber' | translate}}" required>
+            </mat-form-field>
+            <mat-form-field>
+              <input #keyboardRef formControlName="emailID" matInput placeholder="{{'addcontact.email' | translate}}" required>
+            </mat-form-field>
+            <mat-form-field>
+              <input #keyboardRef formControlName="userName" matInput placeholder="{{'addcontact.userName' | translate}}" required>
+            </mat-form-field>
+            <mat-form-field>
+              <input #keyboardRef formControlName="userPassword" matInput placeholder="{{'addcontact.password' | translate}}" required>
+            </mat-form-field>
+          </div>
+        </mat-card-content>
+        <mat-card-actions class="action-buttons">
+          <button id="createButton" mat-raised-button 
+            (click)="submit()">ADD</button>    
+          <button id="cancelButton" mat-raised-button
+          (click)="cancel()">CANCEL</button>    
+        </mat-card-actions>      
+      </mat-card>
+    </div>
+  </div>
+</div>

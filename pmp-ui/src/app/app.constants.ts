@@ -98,6 +98,14 @@ export const navItems = [
     children: null,
     auditEventId: 'ADM-011',
     roles: ['PARTNER_ADMIN']
+  },
+  {
+    displayName: 'menuItems.item9.title',
+    icon: 'assets/images/certificate.png',
+    route: '/pmp/resources/addcontact',
+    children: null,
+    auditEventId: 'ADM-012',
+    roles: []
   }
 ];
 

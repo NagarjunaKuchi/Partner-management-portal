@@ -26,6 +26,9 @@
     },
     "item8": {
       "title": "Upload CA Certificate_ara"
+    },
+    "item9": {
+      "title": "Add Contact_ara"
     }
   },
   "dashboard": {
@@ -443,6 +446,36 @@
     "uploadYourFile": "Upload Your File_ara",
     "button": "Upload_ara",
     "cancel": "Cancel_ara"
+  },
+  "addcontact":{
+    "firstName":"First Name_ara",
+    "lastName":"Last Name_ara",
+    "contactNumber":"Contact Number_ara",
+    "email":"Email_ara",
+    "userName":"UserName_ara",
+    "password":"Password_ara",
+    "button": "Add_ara",
+    "cancel": "Cancel_ara",
+    "validationMessages": {
+      "firstName": {
+        "required": "First Name is required_ara"
+      },
+      "lastName": {
+        "required": "Last Name is required_ara"
+      },
+      "contactNumber": {
+        "required": "ContactNumber is required_ara"
+      },
+      "email": {
+        "required": "Email is required_ara"
+      },
+      "userName": {
+        "required": "UserName is required_ara"
+      },
+      "password": {
+        "required": "Password is required_ara"
+      }
+    }
   },
   "filters": {
     "titleTxt": "Add Filters_ara",

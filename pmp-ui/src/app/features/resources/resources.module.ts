@@ -15,6 +15,7 @@ import { TableComponent } from './shared/table/table.component';
 import { ToolbarComponent } from './shared/toolbar/toolbar.component';
 import { DialogComponent } from './shared/dialog/dialog.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { AddContactComponent } from './add-contact/add-contact.component';
 
 @NgModule({
   imports: [
@@ -36,7 +37,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     TableComponent,
     ToolbarComponent,
     DialogComponent,
-    CertUploadComponent
+    CertUploadComponent,
+    AddContactComponent
   ],
   exports:[TableComponent, ToolbarComponent, DialogComponent],
   entryComponents: [DialogComponent]

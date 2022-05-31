@@ -26,6 +26,9 @@
     },
     "item8": {
       "title": "Upload CA Certificate_kan"
+    },
+    "item9": {
+      "title": "Add Contact_kan"
     }
   },
   "dashboard": {
@@ -443,6 +446,36 @@
     "uploadYourFile": "Upload Your File_kan",
     "button": "Upload_kan",
     "cancel": "Cancel_kan"
+  },
+  "addcontact":{
+    "firstName":"First Name_kan",
+    "lastName":"Last Name_kan",
+    "contactNumber":"Contact Number_kan",
+    "email":"Email_kan",
+    "userName":"UserName_kan",
+    "password":"Password_kan",
+    "button": "Add_kan",
+    "cancel": "Cancel_kan",
+    "validationMessages": {
+      "firstName": {
+        "required": "First Name is required_kan"
+      },
+      "lastName": {
+        "required": "Last Name is required_kan"
+      },
+      "contactNumber": {
+        "required": "ContactNumber is required_kan"
+      },
+      "email": {
+        "required": "Email is required_kan"
+      },
+      "userName": {
+        "required": "UserName is required_kan"
+      },
+      "password": {
+        "required": "Password is required_kan"
+      }
+    }
   },
   "filters": {
     "titleTxt": "Add Filters_kan",

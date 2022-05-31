@@ -391,6 +391,13 @@ export class DataStorageService {
     );
   }
 
+  addContact(data: any): Observable<any> {
+    return this.http.post(
+      this.BASE_URL  + 'v1/partnermanager/users',
+      data
+    );
+  }
+  
   uploadFTMChipCertificate(data: any): Observable<any> {
     return this.http.post(
       this.BASE_URL  + 'v1/partnermanager/ftpchipdetail/uploadcertificate',

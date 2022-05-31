@@ -26,6 +26,9 @@
     },
     "item8": {
       "title": "Upload CA Certificate"
+    },
+    "item9": {
+      "title": "Add Contact"
     }
   },
   "dashboard": {
@@ -440,6 +443,36 @@
     "uploadYourFile": "Upload Your File",
     "button": "Upload",
     "cancel": "Cancel"
+  },
+  "addcontact":{
+    "firstName":"First Name",
+    "lastName":"Last Name",
+    "contactNumber":"Contact Number",
+    "email":"Email",
+    "userName":"UserName",
+    "password":"Password",
+    "button": "Add",
+    "cancel": "Cancel",
+    "validationMessages": {
+      "firstName": {
+        "required": "First Name is required"
+      },
+      "lastName": {
+        "required": "Last Name is required"
+      },
+      "contactNumber": {
+        "required": "ContactNumber is required"
+      },
+      "email": {
+        "required": "Email is required"
+      },
+      "userName": {
+        "required": "UserName is required"
+      },
+      "password": {
+        "required": "Password is required"
+      }
+    }
   },
   "filters": {
     "titleTxt": "Map Policy Group",
